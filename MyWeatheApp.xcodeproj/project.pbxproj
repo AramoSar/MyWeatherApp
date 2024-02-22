@@ -13,6 +13,12 @@
 		F77D55802B85C4E0000E16E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77D557E2B85C4E0000E16E6 /* Main.storyboard */; };
 		F77D55822B85C4E1000E16E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77D55812B85C4E1000E16E6 /* Assets.xcassets */; };
 		F77D55852B85C4E1000E16E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77D55832B85C4E1000E16E6 /* LaunchScreen.storyboard */; };
+		F77D55902B85C5B0000E16E6 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D558E2B85C5B0000E16E6 /* WeatherTableViewCell.swift */; };
+		F77D55912B85C5B0000E16E6 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F77D558F2B85C5B0000E16E6 /* WeatherTableViewCell.xib */; };
+		F77D55942B85C5D2000E16E6 /* HourlyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D55922B85C5D2000E16E6 /* HourlyTableViewCell.swift */; };
+		F77D55952B85C5D2000E16E6 /* HourlyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F77D55932B85C5D2000E16E6 /* HourlyTableViewCell.xib */; };
+		F77D55B92B87273E000E16E6 /* WeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D55B72B87273E000E16E6 /* WeatherCollectionViewCell.swift */; };
+		F77D55BA2B87273E000E16E6 /* WeatherCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F77D55B82B87273E000E16E6 /* WeatherCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		F77D55812B85C4E1000E16E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F77D55842B85C4E1000E16E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F77D55862B85C4E1000E16E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77D558E2B85C5B0000E16E6 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		F77D558F2B85C5B0000E16E6 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		F77D55922B85C5D2000E16E6 /* HourlyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyTableViewCell.swift; sourceTree = "<group>"; };
+		F77D55932B85C5D2000E16E6 /* HourlyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HourlyTableViewCell.xib; sourceTree = "<group>"; };
+		F77D55B72B87273E000E16E6 /* WeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		F77D55B82B87273E000E16E6 /* WeatherCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,9 @@
 		F77D55772B85C4E0000E16E6 /* MyWeatheApp */ = {
 			isa = PBXGroup;
 			children = (
+				F77D55B62B87271A000E16E6 /* CollectionViewCell */,
+				F77D558D2B85C54A000E16E6 /* HourlyCollectionCell */,
+				F77D558C2B85C53F000E16E6 /* WeatherCell */,
 				F77D55782B85C4E0000E16E6 /* AppDelegate.swift */,
 				F77D557A2B85C4E0000E16E6 /* SceneDelegate.swift */,
 				F77D557C2B85C4E0000E16E6 /* ViewController.swift */,
@@ -65,6 +80,33 @@
 				F77D55862B85C4E1000E16E6 /* Info.plist */,
 			);
 			path = MyWeatheApp;
+			sourceTree = "<group>";
+		};
+		F77D558C2B85C53F000E16E6 /* WeatherCell */ = {
+			isa = PBXGroup;
+			children = (
+				F77D558E2B85C5B0000E16E6 /* WeatherTableViewCell.swift */,
+				F77D558F2B85C5B0000E16E6 /* WeatherTableViewCell.xib */,
+			);
+			path = WeatherCell;
+			sourceTree = "<group>";
+		};
+		F77D558D2B85C54A000E16E6 /* HourlyCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				F77D55922B85C5D2000E16E6 /* HourlyTableViewCell.swift */,
+				F77D55932B85C5D2000E16E6 /* HourlyTableViewCell.xib */,
+			);
+			path = HourlyCollectionCell;
+			sourceTree = "<group>";
+		};
+		F77D55B62B87271A000E16E6 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F77D55B72B87273E000E16E6 /* WeatherCollectionViewCell.swift */,
+				F77D55B82B87273E000E16E6 /* WeatherCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +167,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77D55912B85C5B0000E16E6 /* WeatherTableViewCell.xib in Resources */,
+				F77D55952B85C5D2000E16E6 /* HourlyTableViewCell.xib in Resources */,
 				F77D55852B85C4E1000E16E6 /* LaunchScreen.storyboard in Resources */,
 				F77D55822B85C4E1000E16E6 /* Assets.xcassets in Resources */,
 				F77D55802B85C4E0000E16E6 /* Main.storyboard in Resources */,
+				F77D55BA2B87273E000E16E6 /* WeatherCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +183,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77D55902B85C5B0000E16E6 /* WeatherTableViewCell.swift in Sources */,
 				F77D557D2B85C4E0000E16E6 /* ViewController.swift in Sources */,
+				F77D55942B85C5D2000E16E6 /* HourlyTableViewCell.swift in Sources */,
+				F77D55B92B87273E000E16E6 /* WeatherCollectionViewCell.swift in Sources */,
 				F77D55792B85C4E0000E16E6 /* AppDelegate.swift in Sources */,
 				F77D557B2B85C4E0000E16E6 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,6 +343,7 @@
 				DEVELOPMENT_TEAM = Q2XG7N243L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyWeatheApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location to see local weather.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,6 +372,7 @@
 				DEVELOPMENT_TEAM = Q2XG7N243L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyWeatheApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location to see local weather.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
